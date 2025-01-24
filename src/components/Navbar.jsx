@@ -18,9 +18,9 @@ const Navbar = async () => {
           </Link>
           <Link
             className="btn border lg:py-2 py-2 px-4 lg:px-4 rounded"
-            href={"/about"}
+            href={"/profile"}
           >
-            About
+            Profile
           </Link>
           {user ? (
             <>
