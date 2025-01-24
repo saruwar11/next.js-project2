@@ -1,3 +1,4 @@
+import BackButton from "@/components/BackButton";
 import React from "react";
 
 const page = async ({ params }) => {
@@ -28,6 +29,7 @@ const page = async ({ params }) => {
               </li>
             </ul>
           </div>
+          <BackButton></BackButton>
         </div>
       </div>
     </div>
